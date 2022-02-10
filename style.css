@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  padding-top: 100px;
+  background: #00d2ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1170px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.card {
+  width: 350px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 3px 9px 4px rgba(176, 100, 255, 0.48);
+  box-shadow: 2px 3px 9px 4px rgba(176, 100, 255, 0.48);
+}
+
+.top {
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(#004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient( #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  padding-bottom: 100px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.user {
+  font-size: 20px;
+}
+
+#unit-converter {
+  border: none;
+  background: none;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#unit-converter option {
+  margin: 40px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+#main-unit {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 40px;
+  width: 160px;
+}
+.heading{
+  text-align: center;
+  color: #faf6f6;
+  margin-top: -5%;
+  font-size: 3em;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000428;
+}
+#second-unit {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #faf6f6;
+  color: #fcf6f6;
+  font-size: 40px;
+  width: 160px;
+}
+
+.main-unit-options {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.main-unit-option {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.second-unit-options {
+  border: none;
+  background: none;
+  color: #f8f2f1;
+  font-size: 20px;
+}
+
+.bottom {
+  background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(#004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(#004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 80px 15px;
+}
